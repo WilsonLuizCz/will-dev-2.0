@@ -184,8 +184,8 @@ font-size: 1.5rem;
 .v{
     margin: 0px;
     margin-bottom: 40px;
-    padding: 0px;
-    
+    padding: 10px;
+    text-align: center;
     
     
 }
@@ -201,6 +201,9 @@ font-size: 1.5rem;
     }
     .v{
    font-size: 1.3rem;
+   text-align: center;
+   margin-left: 25px;
+   padding: 10px;
    
      
       
@@ -210,6 +213,7 @@ font-size: 1.5rem;
         margin: 0px;
         text-align: center;
     }
+ 
 }
 
 .Trabalhos{
