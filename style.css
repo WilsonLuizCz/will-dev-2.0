@@ -1,1 +1,331 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato' Arial, Helvetica, sans-serif;
+    
+}
+:root{
+    --cor0:#0000FF;
+    --cor1:#0000E6;
+    --cor2:#0000BF;
+    --cor3:#000080;
+    --cor4:#000040;
+   
+    --fonte-padrao: arial,verdana,helvetica,sans-serif;
+    --fonte-texto:'Lato', sans-serif;
+    --fonte-titulo:'Lato', sans-serif;
+    --fonte-android: 'Android';
+   }
+   @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300;1,400;1,700&display=swap');
 
+   @font-face {
+    font-family: 'Android';
+    src: url('../fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+
+
+header{
+       background-color: black;
+       color: white;
+       padding:4px;
+       display: flex;
+       justify-content: space-between;
+       box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.840);
+      
+      }
+div.header{
+    display: flex;
+    flex-direction: row;
+}
+header img{
+        width: 100px;
+        
+      }
+header h1{
+           
+            align-items: center;
+            display: flex;
+            text-shadow: 1px 1px 0px black;
+            margin-left: 20px;
+            
+}
+
+header nav a{
+     
+    margin: 10px 10px;
+    color: white;
+    text-decoration: none;
+    padding: 6px;
+    text-shadow: 1px 1px 0px black;
+    
+}
+header nav a:hover{
+
+    text-shadow: 2px 2px 4px #0000FF;
+    color: #0000FF;
+    border-radius: 8px;
+    box-shadow: 1px 2px 10px #0000FF;
+    transition-delay: 0.3s;
+    border:1px solid #0000FF;
+}
+
+nav{
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    align-items:center;
+}
+
+@media(max-width:700px){
+
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    header h1{
+        margin-left: 90px;
+       
+        
+
+    }
+    div.header img{
+        margin-left:10px;
+    }
+    div.header{
+        display: flex;
+        flex-direction: row;
+    }
+    #Home{
+        display: flex;
+        flex-direction: row;
+        margin-left: 70px;
+    }
+}
+
+section.imagem{
+
+    text-align: center;
+    margin-top:40px;
+    height: 300px;
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.658);
+    
+}
+section.imagem h1{
+
+    margin-top: 50px;
+    text-shadow: 1px 1px 0px black;
+    font-family: var(--fonte-titulo);
+    
+}
+section.imagem p{
+
+    font-size: 1.4rem;
+    text-shadow: 1px 1px 0px black;
+    font-family: var(--fonte-texto) Arial, Helvetica, sans-serif;
+    display: inline-block;
+    
+    
+}
+.slogam{
+
+    padding: 10px;
+
+}
+
+#img01{
+    background-image: url(imagem/business-gfed8aa001_1280.jpg);
+    background-position: center ;
+
+}
+.text{
+    margin-top: 500px;
+}
+.Sobre{
+    text-align: center;
+    padding: 40px;
+    color:white;
+}
+.Sobre h2{
+    font-size: 2rem;
+    font-weight: bold;
+    color:black;
+    font-family:var(--fonte-titulo) ;
+    margin:0px 80px
+    
+    
+}
+.Sobre p {
+    text-align: justify;
+    margin:50px;
+    margin-bottom: 80px;
+    font-family: var(--fonte-texto);
+    font-size: 1.5rem;
+  
+}
+
+.Vantagens{
+
+background-color: black;
+color: white;
+text-align: center;
+margin: 0px;
+padding: 10px;
+font-family: var(--fonte-texto);
+font-size: 1.5rem;
+}
+
+.Vantagens i{
+    color:#0000FF;
+    font-size: 3rem;
+}
+
+.v{
+    margin: 0px;
+    margin-bottom: 40px;
+    padding: 10px;
+    text-align: center;
+    
+    
+}
+
+@media(max-width:700px){
+    .Sobre{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    }
+    .Sobre h2{
+        margin-top: 20px;
+    }
+    .v{
+   font-size: 1.3rem;
+   text-align: center;
+   margin-left: 25px;
+   padding: 10px;
+   
+     
+      
+    }
+    .Vantagens{
+        padding: 10px;
+        margin: 0px;
+        text-align: center;
+    }
+ 
+}
+
+.Trabalhos{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+   
+}
+div .card{
+    margin: 20px;
+    background-color: black;
+    color: white;
+
+}
+.trabalhos1{
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width:1000px){
+    .trabalhos1{
+        display: flex;
+        flex-direction: column;
+}
+
+.v p{
+    text-align: justify;
+    margin: 20px;
+    font-family: var(--fonte-texto);
+    
+}}
+
+.Trabalhos h2{
+    margin-top: 50px;
+    margin-bottom:50px;
+    font-family: var(--fonte-titulo);
+
+}
+.card i{
+    color: white;
+    font-size: 3rem;}
+
+.Contatos{
+    background-color: white;
+    background-image: url(imagem/business-g35e6842c5_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.658);
+    color: #0000E6;
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+   
+}
+.Contatos h2{
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: var(--fonte-titulo);
+}
+.Contatos i{
+    margin-left: 40px;
+}
+.Contatos a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: white;
+
+}
+.Contatos a:hover{
+    color:rgb(143, 143, 143);
+    text-shadow: 1px 1px 1px black;
+    text-decoration: underline #0000FF;
+}
+.Contatos i{
+    font-size: 2rem;
+    color: aqua;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.836);
+}
+.Contatos div{
+    background-color: rgba(0, 0, 0, 0.932);
+    padding: 40px 10px;
+    margin: 10px 300px;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.527);
+}
+@media(max-width:700px){
+    .Contatos div{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 10px;
+        text-align: center;
+    
+    }
+    .Contatos i{
+        margin:0px;
+    }
+    }
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top:15px;
+    padding-bottom: 1px;
+    font-family: var(--fonte-titulo);
+    font-size: 1.1rem;
+   
+}
