@@ -171,7 +171,7 @@ background-color: black;
 color: white;
 text-align: center;
 margin: 0px;
-padding: 50px;
+padding: 10px;
 font-family: var(--fonte-texto);
 font-size: 1.5rem;
 }
@@ -182,8 +182,10 @@ font-size: 1.5rem;
 }
 
 .v{
-    margin: 40px;
+    margin: 0px;
     margin-bottom: 40px;
+    padding: 0px;
+    
     
     
 }
@@ -198,12 +200,12 @@ font-size: 1.5rem;
         margin-top: 20px;
     }
     .v{
-   
-      margin: 0px;
-      text-align: center;
+   font-size: 1.3rem;
+     
+      
     }
     .Vantagens{
-        padding: 100px;
+        padding: 10px;
         margin: 0px;
         text-align: center;
     }
